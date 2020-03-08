@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Assignment4</title>
+		<script type="text/javascript" src="game.js"></script>
+		<link rel="stylesheet" type="text/css" href="game.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css">
+	</head>
+	<body>
+		<section class="hero is-primary">
+			<div id="navbarMenuHeroA" class="navbar-menu">
+				<div class="navbar-end">
+					<a class="navbar-item has-text-light" href="portfolio.html">
+						Home
+					</a>
+					<a class="navbar-item has-text-light" href="project.html">
+						Project
+					</a>
+					<a class="navbar-item has-text-light" href="recipe.html">
+						Assignment1
+					</a>
+					<a class="navbar-item has-text-light" href="blog.html">
+						Assignment2
+					</a>
+				  <a class="navbar-item has-text-light" href="register.html">
+					Assignment3
+				  </a>
+				  <a class="navbar-item is-active has-text-white has-text-weight-bold">
+					Assignment4
+				  </a>		  
+				</div>
+			  </div>
+			<div class="hero-body">
+			  <div class="container">
+				<h1 class="title">
+				Assignment 4
+				</h1>
+				<h2 class="subtitle">
+				Square game 
+				</h2>
+			  </div>
+			</div>
+		  </section>
+		  <br>
+		<div class="tile is-ancestor"  id="padding">
+			<div class="tile is-parent">
+	
+			</div>
+			<div class="tile is-parent">
+					<article class="tile is-child box">
+						<fieldset>
+							<label class="label has-text-centered">Control</label> 
+							<label class="label">Number of box</label> 
+							<input  class="input is-rounded" type="text" name="numbox" id="numbox">
+							<br><br>
+							<div class="container has-text-centered">
+								<div class="select">
+									<select name="color" id = "color">
+									  <option value="red">Red</option>
+										<option value="blue">Blue</option>
+										<option value="green">Green</option>
+									</select>
+								  </div>
+							  <button id="start" class="button **is-large is-success is-rounded is-focused has-text-weight-bold**">Start</button>
+							</div>	
+							
+							<div class="label"id="timerClock"> Timer:
+								<div id="clock"></div>
+							</div>
+						</fieldset>
+				  </article>
+			</div>
+			<div class="tile is-parent">
+			  
+			</div>
+		  </div>
+		<div id="squares-container">
+			<div id="squares-layer"></div>
+		</div>
+		<div class="level-right">
+			<p class="level-item"><strong>CSS framework Bulma</strong></p>
+		  </div>
+	</body>
+</html>
